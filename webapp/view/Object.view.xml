@@ -1,0 +1,34 @@
+<mvc:View controllerName="ztelia.controller.Object" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form"
+	xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic"
+	xmlns:smartForm="sap.ui.comp.smartform" xmlns:smartField="sap.ui.comp.smartfield" xmlns:smart="sap.ui.comp.smartfield" xmlns="sap.m">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" title="{local>/Scenario/Description}" busy="{viewModel>/busy}">
+		<semantic:customHeaderContent>
+			<Button enabled="true" id="idCart" press="onCartOverview" icon="sap-icon://cart"/>
+		</semantic:customHeaderContent>
+		<semantic:content>
+			<smartForm:SmartForm id="Source" editable="false" editTogglable="false" title="Source" flexEnabled="false">
+				<smartForm:Group>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Matnr}"/>
+						<smartField:SmartField value="{Maktx}"/>
+					</smartForm:GroupElement>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Sernr}"/>
+					</smartForm:GroupElement>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Werks}"/>
+					</smartForm:GroupElement>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Lgort}"/>
+					</smartForm:GroupElement>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{Charg}"/>
+					</smartForm:GroupElement>
+				</smartForm:Group>
+			</smartForm:SmartForm>
+		</semantic:content>
+		<semantic:customFooterContent>
+			<Button text="Add to Cart" press="onCartItemAdd"/>
+		</semantic:customFooterContent>
+	</semantic:DetailPage>
+</mvc:View>

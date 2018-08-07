@@ -1,0 +1,38 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar"
+	xmlns:smartForm="sap.ui.comp.smartform" xmlns:smartField="sap.ui.comp.smartfield" xmlns:smartTable="sap.ui.comp.smarttable"
+	controllerName="ztelia.controller.Detail">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" title="{local>/Scenario/Description}" busy="{detailView>/busy}"
+		busyIndicatorDelay="{detailView>/delay}">
+		<semantic:customHeaderContent></semantic:customHeaderContent>
+		<semantic:customFooterContent>
+			<Button enabled="true" id="postButton" press="onPost" text="Post document"/>
+		</semantic:customFooterContent>
+		<semantic:content>
+			<smartForm:SmartForm id="smartForm" editable="true" editTogglable="false" title="Header" flexEnabled="false">
+				<smartForm:Group>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{docdate}"/>
+					</smartForm:GroupElement>
+					<smartForm:GroupElement>
+						<smartField:SmartField value="{usercomment}"/>
+					</smartForm:GroupElement>
+				</smartForm:Group>
+			</smartForm:SmartForm>
+			<List id="idList" headerText="Document items" items="{to_Items}" mode="Delete" delete="onDelete">
+				<CustomListItem>
+					<HBox>
+						<VBox class="sapUiSmallMarginBeginEnd sapUiSmallMarginTopBottom">
+							<Label text="{matnr} {serialnumber}"/>
+							<Label text=" {materialname}"/>
+							<Label text="{werks} \ {lgort} \ {charg}"/>
+						</VBox>
+						<VBox class="sapUiSmallMarginBeginEnd sapUiSmallMarginTopBottom">
+							<Label text="{umcha} {grund} "/>
+							<Label text="{dmbtr} {waers} "/>
+						</VBox>
+					</HBox>
+				</CustomListItem>
+			</List>
+		</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>

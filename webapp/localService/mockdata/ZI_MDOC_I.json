@@ -1,0 +1,73 @@
+[{
+	"db_key": "befd2b9c-4064-41e5-bbd8-d67e442725db",
+	"umlgo": "umlgo 1",
+	"umcha": "umcha 1",
+	"grund": "grund 1",
+	"menge": 4481.67,
+	"meins": "meins 1",
+	"dmbtr": 4489.74,
+	"waers": "waers 1",
+	"parent_key": "c0c80efa-cda7-4a1c-aac5-c447899ac326",
+	"line_id": "line_id 1",
+	"scenario": "scenario 1",
+	"matnr": "matnr 1",
+	"equinr": "equinr 1",
+	"werks": "werks 1",
+	"lgort": "lgort 1",
+	"charg": "charg 1",
+	"__metadata": {
+		"uri": "ZI_MDOC_I(guid'befd2b9c-4064-41e5-bbd8-d67e442725db')",
+		"type": "ZLO_MATDOC_CREATE_SRV.ZI_MDOC_IType"
+	},
+	"to_Header": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'befd2b9c-4064-41e5-bbd8-d67e442725db')/to_Header"
+		}
+	},
+	"to_Reasons": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'befd2b9c-4064-41e5-bbd8-d67e442725db')/to_Reasons"
+		}
+	},
+	"to_StLoc": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'befd2b9c-4064-41e5-bbd8-d67e442725db')/to_StLoc"
+		}
+	}
+}, {
+	"db_key": "94473175-6030-41d7-9841-4b11a2722b8e",
+	"umlgo": "umlgo 2",
+	"umcha": "umcha 2",
+	"grund": "grund 2",
+	"menge": 7757.88,
+	"meins": "meins 2",
+	"dmbtr": 6053.64,
+	"waers": "waers 2",
+	"parent_key": "c0c80efa-cda7-4a1c-aac5-c447899ac326",
+	"line_id": "line_id 2",
+	"scenario": "scenario 2",
+	"matnr": "matnr 2",
+	"equinr": "equinr 2",
+	"werks": "werks 2",
+	"lgort": "lgort 2",
+	"charg": "charg 2",
+	"__metadata": {
+		"uri": "ZI_MDOC_I(guid'94473175-6030-41d7-9841-4b11a2722b8e')",
+		"type": "ZLO_MATDOC_CREATE_SRV.ZI_MDOC_IType"
+	},
+	"to_Header": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'94473175-6030-41d7-9841-4b11a2722b8e')/to_Header"
+		}
+	},
+	"to_Reasons": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'94473175-6030-41d7-9841-4b11a2722b8e')/to_Reasons"
+		}
+	},
+	"to_StLoc": {
+		"__deferred": {
+			"uri": "ZI_MDOC_I(guid'94473175-6030-41d7-9841-4b11a2722b8e')/to_StLoc"
+		}
+	}
+}]

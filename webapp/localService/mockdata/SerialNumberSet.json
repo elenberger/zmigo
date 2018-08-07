@@ -1,0 +1,121 @@
+[{
+	"Equnr": "Equnr1744545",
+	"Sernr": "Sernr 1",
+	"Matnr": "Matnr1",
+	"Maktx": "Maktx 1",
+	"Werks": "Werks 1",
+	"Lgort": "Lgort 1",
+	"Charg": "Charg 1",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%201',Matnr='Matnr%201')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 2",
+	"Sernr": "Sernr 2",
+	"Matnr": "Matnr 2",
+	"Maktx": "Maktx 2",
+	"Werks": "Werks 2",
+	"Lgort": "Lgort 2",
+	"Charg": "Charg 2",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%202',Matnr='Matnr%202')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 3",
+	"Sernr": "Sernr 3",
+	"Matnr": "Matnr 3",
+	"Maktx": "Maktx 3",
+	"Werks": "Werks 3",
+	"Lgort": "Lgort 3",
+	"Charg": "Charg 3",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%203',Matnr='Matnr%203')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 4",
+	"Sernr": "Sernr 4",
+	"Matnr": "Matnr 4",
+	"Maktx": "Maktx 4",
+	"Werks": "Werks 4",
+	"Lgort": "Lgort 4",
+	"Charg": "Charg 4",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%204',Matnr='Matnr%204')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 5",
+	"Sernr": "Sernr 5",
+	"Matnr": "Matnr 5",
+	"Maktx": "Maktx 5",
+	"Werks": "Werks 5",
+	"Lgort": "Lgort 5",
+	"Charg": "Charg 5",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%205',Matnr='Matnr%205')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 6",
+	"Sernr": "Sernr 6",
+	"Matnr": "Matnr 6",
+	"Maktx": "Maktx 6",
+	"Werks": "Werks 6",
+	"Lgort": "Lgort 6",
+	"Charg": "Charg 6",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%206',Matnr='Matnr%206')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 7",
+	"Sernr": "Sernr 7",
+	"Matnr": "Matnr 7",
+	"Maktx": "Maktx 7",
+	"Werks": "Werks 7",
+	"Lgort": "Lgort 7",
+	"Charg": "Charg 7",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%207',Matnr='Matnr%207')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 8",
+	"Sernr": "Sernr 8",
+	"Matnr": "Matnr 8",
+	"Maktx": "Maktx 8",
+	"Werks": "Werks 8",
+	"Lgort": "Lgort 8",
+	"Charg": "Charg 8",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%208',Matnr='Matnr%208')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 9",
+	"Sernr": "Sernr 9",
+	"Matnr": "Matnr 9",
+	"Maktx": "Maktx 9",
+	"Werks": "Werks 9",
+	"Lgort": "Lgort 9",
+	"Charg": "Charg 9",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%209',Matnr='Matnr%209')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}, {
+	"Equnr": "Equnr 10",
+	"Sernr": "Sernr 10",
+	"Matnr": "Matnr 10",
+	"Maktx": "Maktx 10",
+	"Werks": "Werks 10",
+	"Lgort": "Lgort 10",
+	"Charg": "Charg 10",
+	"__metadata": {
+		"uri": "SerialNumberSet(Equnr='Equnr%2010',Matnr='Matnr%2010')",
+		"type": "ZLO_MATDOC_CREATE_SRV.SerialNumber"
+	}
+}]

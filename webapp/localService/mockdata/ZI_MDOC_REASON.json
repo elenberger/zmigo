@@ -1,0 +1,9 @@
+[{
+	"scenario": "SC2",
+	"grund": "0010",
+	"description": "Discount 10%"
+}, {
+	"scenario": "SC2",
+	"grund": "0020",
+	"description": "Discount 20%"
+}]

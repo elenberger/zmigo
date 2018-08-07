@@ -1,0 +1,33 @@
+[{
+	"Post_ac": false,
+	"db_key": "c0c80efa-cda7-4a1c-aac5-c447899ac326",
+	"scenario": "SC2",
+	"userid": "mikdrz",
+	"docdate": "/Date(1345136610000)/",
+	"usercomment": "usercomment Scenario 2",
+	"__metadata": {
+		"uri": "ZI_MDOC(guid'c0c80efa-cda7-4a1c-aac5-c447899ac326')",
+		"type": "ZLO_MATDOC_CREATE_SRV.ZI_MDOCType"
+	},
+	"to_Items": {
+		"__deferred": {
+			"uri": "ZI_MDOC(guid'c0c80efa-cda7-4a1c-aac5-c447899ac326')/to_Items"
+		}
+	}
+}, {
+	"Post_ac": false,
+	"db_key": "88eccebc-fb7e-439e-8c71-a6224e141c42",
+	"scenario": "SC1",
+	"userid": "mikdrz",
+	"docdate": "/Date(1271437410000)/",
+	"usercomment": "usercomment SC1",
+	"__metadata": {
+		"uri": "ZI_MDOC(guid'88eccebc-fb7e-439e-8c71-a6224e141c42')",
+		"type": "ZLO_MATDOC_CREATE_SRV.ZI_MDOCType"
+	},
+	"to_Items": {
+		"__deferred": {
+			"uri": "ZI_MDOC(guid'88eccebc-fb7e-439e-8c71-a6224e141c42')/to_Items"
+		}
+	}
+}]
