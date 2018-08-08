@@ -1,17 +1,17 @@
 /*global history */
 sap.ui.define([
-	"ztelia/controller/BaseController",
+	"matdoc/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
 	"sap/m/GroupHeaderListItem",
 	"sap/ui/Device",
-	"ztelia/model/formatter",
+	"matdoc/model/formatter",
 	"sap/m/MessageBox"
 ], function(BaseController, JSONModel, Filter, FilterOperator, GroupHeaderListItem, Device, formatter, MessageBox) {
 	"use strict";
 
-	return BaseController.extend("ztelia.controller.Master", {
+	return BaseController.extend("telia.ui5.matdoc.controller.Master", {
 
 		formatter: formatter,
 

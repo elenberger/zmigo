@@ -1,10 +1,10 @@
 sap.ui.define([
-	"ztelia/controller/BaseController",
+	"matdoc/controller/BaseController",
 	"sap/ui/model/json/JSONModel"
 ], function(BaseController, JSONModel) {
 	"use strict";
 
-	return BaseController.extend("ztelia.controller.App", {
+	return BaseController.extend("telia.ui5.matdoc.controller.App", {
 
 		onInit: function() {
 			var oViewModel,

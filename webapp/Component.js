@@ -1,13 +1,13 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"ztelia/model/models",
-	"ztelia/controller/ListSelector",
-	"ztelia/controller/ErrorHandler"
+	"telia/ui5/matdoc/model/models",
+	"telia/ui5/matdoc/controller/ListSelector",
+	"telia/ui5/matdoc/controller/ErrorHandler"
 ], function(UIComponent, Device, models, ListSelector, ErrorHandler) {
 	"use strict";
 
-	return UIComponent.extend("ztelia.Component", {
+	return UIComponent.extend("telia.ui5.matdoc.Component", {
 
 		metadata: {
 			manifest: "json"

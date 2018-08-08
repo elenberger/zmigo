@@ -1,14 +1,14 @@
 /*global location */
 sap.ui.define([
-	"ztelia/controller/BaseController",
+	"matdoc/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
-	"ztelia/model/formatter",
+	"matdoc/model/formatter",
 	"sap/m/MessageBox",
 	"sap/m/MessageToast"
 ], function(BaseController, JSONModel, formatter, MessageBox, MessageToast) {
 	"use strict";
 
-	return BaseController.extend("ztelia.controller.Detail", {
+	return BaseController.extend("telia.ui5.matdoc.controller.Detail", {
 
 		formatter: formatter,
 

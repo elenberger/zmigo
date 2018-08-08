@@ -5,7 +5,7 @@ sap.ui.define([
 ], function(Controller, History) {
 	"use strict";
 
-	return Controller.extend("ztelia.controller.BaseController", {
+	return Controller.extend("telia.ui5.matdoc.controller.BaseController", {
 		/**
 		 * Convenience method for accessing the router in every controller of the application.
 		 * @public

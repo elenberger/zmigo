@@ -1,9 +1,9 @@
 sap.ui.define([
-	"ztelia/controller/BaseController"
+	"matdoc/controller/BaseController"
 ], function(BaseController) {
 	"use strict";
 
-	return BaseController.extend("ztelia.controller.Scenario", {
+	return BaseController.extend("telia.ui5.matdoc.controller.Scenario", {
 
 		onInit: function() {
 			var that = this;

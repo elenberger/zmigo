@@ -1,6 +1,6 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar"
 	xmlns:smartForm="sap.ui.comp.smartform" xmlns:smartField="sap.ui.comp.smartfield" xmlns:smartTable="sap.ui.comp.smarttable"
-	controllerName="ztelia.controller.Detail">
+	controllerName="telia.ui5.matdoc.controller.Detail">
 	<semantic:DetailPage id="page" navButtonPress="onNavBack" title="{local>/Scenario/Description}" busy="{detailView>/busy}"
 		busyIndicatorDelay="{detailView>/delay}">
 		<semantic:customHeaderContent></semantic:customHeaderContent>

@@ -46,7 +46,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "ztelia.view.App",
+			"viewName": "telia.ui5.matdoc.view.App",
 			"type": "XML",
 			"id": "app"
 		},
@@ -70,7 +70,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "ztelia.i18n.i18n"
+					"bundleName": "telia.ui5.matdoc.i18n.i18n"
 				}
 			},
 			"": {
@@ -90,7 +90,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "ztelia.view",
+				"viewPath": "telia.ui5.matdoc.view",
 				"controlId": "idAppControl",
 				"controlAggregation": "detailPages",
 				"bypassed": {

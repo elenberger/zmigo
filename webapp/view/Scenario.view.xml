@@ -1,4 +1,4 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ztelia.controller.Scenario"
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="telia.ui5.matdoc.controller.Scenario"
 	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:semantic="sap.m.semantic">
 	<semantic:DetailPage title="Choose scenario">
 		<semantic:content>

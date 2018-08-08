@@ -1,12 +1,12 @@
 sap.ui.define([
-	"ztelia/controller/BaseController",
+	"matdoc/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/m/MessageBox"
 
 ], function(BaseController, JSONModel, MessageBox) {
 	"use strict";
 
-	return BaseController.extend("ztelia.controller.CreateEntity", {
+	return BaseController.extend("telia.ui5.matdoc.controller.CreateEntity", {
 
 		_oBinding: {},
 
